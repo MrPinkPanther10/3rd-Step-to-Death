@@ -14,3 +14,5 @@ This is the screenshot of the website
 
 This is an example of the generated password with all options included 
 ![final](https://user-images.githubusercontent.com/90013822/141594947-f33e8ebf-7e6d-44ed-8f3f-6083037fadfe.JPG)
+
+And the link to the live URL https://mrpinkpanther10.github.io/3rd-Step-to-Death/
