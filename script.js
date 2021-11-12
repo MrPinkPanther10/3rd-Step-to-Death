@@ -106,3 +106,25 @@ function generatePassword() {
     else if (randomUpper) {
         choices = space.concat(uppercase);
     };
+
+    // password variable is an array placeholder
+    var password = [];
+
+    // Start random selection variables:
+    // Random selection for all variables: 
+    for (var i = 0; i < enter; i++) {
+        var pickChoices = choices[Math.floor(Math.random() * choices.length)];
+        password.push(pickChoices);
+    }
+    // This joins the password array and converts it to a string
+    var final = password.join("");
+    UserInput(final);
+    return final;
+}
+// Puts the password value into the textbox
+function UserInput(final) {
+    var passwordText = document.querySelector("#password")
+
+    passwordText.value = final;
+
+}
